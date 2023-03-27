@@ -1,1 +1,77 @@
- 
+/* Global styles */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #252525;
+  color: #fff;
+}
+
+a {
+  color: #00bfff;
+  text-decoration: none;
+}
+
+/* Layout styles */
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col {
+  float: left;
+  width: 100%;
+  padding: 0 15px;
+
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+
+  @media (min-width: 992px) {
+    width: 33.33%;
+  }
+}
+
+/* Utility classes */
+
+.text-center {
+  text-align: center;
+}
+
+.text-muted {
+  color: #8f8f8f;
+}
+
+.bg-primary {
+  background-color: #00bfff;
+  color: #fff;
+}
+
+/* Custom styles */
+.title {
+    color:blue;
+    font-size: 24px;
+}
+
+.count {
+    color: green;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+}
+
+/* Add your custom styles here */

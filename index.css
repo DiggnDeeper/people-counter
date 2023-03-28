@@ -72,6 +72,16 @@ a {
 .btn {
     background-color: red;
     color: white;
+    width: 200px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
 }
 
 /* Add your custom styles here */
